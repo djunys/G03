@@ -1,0 +1,324 @@
+@media all and (max-width: 1000px) {
+  /*Tablet*/
+
+  /* ========HEADER======= */
+  .top-header h1 {
+    font-size: 35px;
+    line-height: 28px;
+  }
+
+  .top-header p {
+    font-size: 20px;
+    line-height: 15px;
+  }
+
+  /* ===FRAME=== */
+
+  .foto {
+    width: 20%;
+    margin-bottom: 50px;
+  }
+  .foto-icon img {
+    width: 70px;
+    display: inline-block;
+  }
+  .foto-txt {
+    display: none;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  /*START MAIN PROFIL*/
+
+  .txt-profil,
+  .txt-profil p,
+  p.quote {
+    text-align: center;
+  }
+  .txt-profil {
+    float: none;
+
+    margin: 20px auto;
+  }
+
+  .propic img {
+    display: block;
+    margin: 40px auto;
+    float: none;
+  }
+
+  /*END MAIN PROFIL*/
+
+  /* =======================MESSAGE============================== */
+  main .containertesti {
+    width: 870px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .contact h2 {
+    font-size: 25px;
+  }
+
+  input[type="text"] {
+    width: 415px;
+  }
+
+  .social {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  }
+
+  .testi img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testi h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .testi p {
+    width: 742px;
+    height: 50px;
+    font-size: 12px;
+  }
+  /* =======================akhirMESSAGE============================== */
+  /* ===============FOOTER============= */
+  .containerfooter {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .footer-logo {
+    margin-left: 20px;
+  }
+
+  .footer-icon {
+    margin-right: 20px;
+  }
+  /* ===============akhir FOOTER============= */
+}
+/* ==========================================800px============================================= */
+/* ======message===== */
+main .containertesti {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact h2 {
+  font-size: 23px;
+}
+
+input[type="text"] {
+  width: 330px;
+}
+
+.testi img {
+  width: 70px;
+  height: 70px;
+}
+
+.testi p {
+  width: 580px;
+  height: 50px;
+  font-size: 12px;
+}
+/* ============================================================================================ */
+@media all and (max-width: 670px) {
+  /* ======header======== */
+  .header-right {
+    display: none;
+  }
+
+  span.menu-icon {
+    display: block;
+  }
+
+  .top-header h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-header p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* ===FRAME=== */
+  .heading h2 {
+    margin-bottom: 3px;
+  }
+
+  .foto {
+    width: 20%;
+    float: center;
+    margin: 15px;
+  }
+
+  .foto-icon img {
+    width: 70px;
+    display: inline-block;
+  }
+  .foto-txt {
+    display: none;
+  }
+  /*START MAIN PROFIL*/
+  .main {
+    padding: 2px;
+    margin: 0 auto;
+  }
+  .container p {
+    margin: 20px 10px 30px 20px;
+    padding: 5px;
+    font-size: 13px;
+  }
+  .profil {
+    margin: 6px 0 20px 0;
+    padding: 0 5px;
+    box-shadow: none;
+    border-bottom: dashed 0.5px rgb(155, 153, 153);
+  }
+
+  .propic img {
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
+    float: none;
+    text-align: center;
+  }
+  .txt-profil h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .txt-profil {
+    margin: 20px;
+    text-align: center;
+    float: none;
+  }
+
+  .txt-profil p {
+    text-align: center;
+    margin: 3px auto;
+  }
+
+  p.quote {
+    margin: 0 auto 10px;
+    font-size: 14px;
+    color: rgb(16, 16, 59); /*235, 57, 57*/
+    text-shadow: 5px 8px 5px darkslategray;
+  }
+
+  .txt-profil a.to {
+    display: block;
+    line-height: 30px;
+    margin-top: 4px;
+  }
+  a.location {
+    margin-top: 7px;
+  }
+
+  /*END MAIN PROFIL*/
+
+  /* ======================message==================== */
+  main .containertesti {
+    width: 340px;
+  }
+
+  .contact h2 {
+    font-size: 20px;
+  }
+
+  .contact-wrapper {
+    font-size: 17px;
+  }
+
+  input[type="text"] {
+    width: 310px;
+  }
+
+  .left-list {
+    float: none;
+  }
+
+  .fa {
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+  }
+
+  .testi img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .testi h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+
+  .testi p {
+    width: 250px;
+    height: 30px;
+    font-size: 9px;
+    line-height: 15px;
+  }
+
+  .testi ul {
+    margin-left: 10px;
+  }
+
+  input[type="submit"] {
+    width: 80px;
+    height: 50x;
+    font-size: 12px;
+  }
+
+  .contact {
+    margin-bottom: 15px;
+  }
+  /* ======================message==================== */
+
+  /* ===============FOOTER============= */
+  footer {
+    width: 110%;
+    height: 120px;
+  }
+  .containerfooter {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer-logo img {
+    width: 60px;
+    margin-top: 5px;
+  }
+  .footer-list {
+    line-height: 10px;
+  }
+
+  h4 {
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .footer-icon {
+    float: none;
+    display: inline;
+    margin: 0;
+    width: 50px;
+  }
+  .footer-icon a {
+    margin: 15px;
+  }
+  .footer-icon img {
+    margin-top: 5px;
+    width: 15px;
+  }
+  /* ===============akhir FOOTER============= */
+}

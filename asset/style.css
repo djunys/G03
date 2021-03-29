@@ -1,0 +1,570 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+  color: #3a2414;
+  background-image: url(../img/geometric-leaves.png);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ===========================HEADER=============== */
+@keyframes top-header {
+  0% {
+    background-image: url(../img/Untitleddesign7.png);
+  }
+  25% {
+    background-image: url(../img/Untitleddesign5.png);
+  }
+  50% {
+    background-image: url(../img/Untitleddesign10.png);
+  }
+  75% {
+    background-image: url(../img/Untitleddesign2.png);
+  }
+  100% {
+    background-image: url(../img/Untitleddesign4.png);
+  }
+}
+
+.containerheader {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(105, 105, 105, 0.9);
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 2px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  font-family: "Kiwi Maru", serif;
+}
+
+.header-right a {
+  line-height: 50px;
+  padding: 0 15px;
+  color: #c5c3bc;
+  display: block;
+  font-weight: bold;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top-header {
+  background-image: url(../img/Untitleddesign4.png);
+  color: #fcb708;
+  padding: 180px 0 100px 0;
+  background-size: cover;
+  text-align: left;
+  width: 100%;
+  animation-name: top-header;
+  animation-duration: 60s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  text-shadow: 3px 3px 2px rgb(31, 32, 6);
+}
+
+.top-header h1 {
+  opacity: 0.7;
+  font-size: 50px;
+  letter-spacing: 20px;
+  margin-bottom: 20px;
+  font-family: "Kiwi Maru", serif;
+  margin-left: 10px;
+}
+
+.top-header p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  font-size: 28px;
+}
+
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.fa {
+  margin-right: 5px;
+}
+/* ===========================AKHIR HEADER=============== */
+.latar {
+}
+
+/* ==============frame foto============== -- > */
+.frame {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 21px;
+  text-shadow: 5px 5px 6px darkslategray;
+}
+
+.foto {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.foto-icon {
+  position: relative;
+}
+
+.foto-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+.foto-icon img {
+  border-radius: 50%;
+  box-shadow: 6px -3px 10px #76a2be;
+}
+
+.foto-txt {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #39363a;
+  display: none;
+}
+/* ==============akhir frame foto============== */
+.main {
+  padding: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container p {
+  text-align: center;
+  font-family: "Kiwi Maru", serif;
+  margin: 20px 80px 100px 100px;
+}
+
+/*PROFIl*/
+.profil {
+  margin: 0 auto;
+  padding: 50px 0;
+  border: solid 2px rgba(0, 0, 0, 0);
+  margin-bottom: 10px;
+  box-shadow: 0px 5px 5px 0px rgba(56, 54, 54, 0.25);
+}
+
+.propic img {
+  border-radius: 50%;
+  margin: 20px 40px 20px 70px;
+  float: left;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.txt-profil {
+  margin-top: 10px;
+  margin-left: 40px;
+  padding: 0;
+  text-align: left;
+  float: left;
+}
+.txt-profil h3 {
+  font-family: "Train One", cursive;
+  font-size: 22px;
+  color: rgb(16, 16, 59);
+}
+.txt-profil p {
+  font-size: 14px;
+  text-align: left;
+  font-style: italic;
+  color: #a37445;
+  margin: 0 auto;
+}
+
+p.quote {
+  font-family: "Kiwi Maru", serif;
+  font-size: 16px;
+  margin: 35px auto;
+  color: rgb(16, 16, 59); /*235, 57, 57*/
+  text-shadow: 5px 8px 5px darkslategray;
+}
+
+a.location {
+  font-size: 18px;
+  color: rgb(235, 57, 57);
+}
+a.to {
+  margin: 0 auto;
+  color: grey;
+  font-size: 18px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+a.wa {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.email:hover {
+  color: blue;
+}
+.wa:hover {
+  color: green;
+}
+.ig:hover {
+  color: purple;
+}
+
+.clear {
+  clear: left;
+}
+
+/* =======================MESSAGE============================== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* (PESAN) - HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* pesan */
+main .containertesti {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(../img/moroccan-flower.png);
+}
+
+/* TESTI */
+.testi {
+  padding-bottom: 10px;
+}
+
+.testi img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 20%;
+  float: left;
+}
+
+.testi ul {
+  float: left;
+  margin-left: 20px;
+}
+
+.testi h3 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.testi p {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 1020px;
+  height: 65px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid rgba(87, 87, 87, 0.4);
+  border-radius: 15px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* CONTACT */
+.contact {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.contact h2 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(87, 87, 87, 0.4);
+  text-shadow: 0 2px 4px rgba(87, 87, 87, 0.8);
+}
+
+textarea,
+input[type="text"] {
+  overflow: auto;
+  font-size: 15px;
+  padding: 10px;
+  display: block;
+  border: 1px solid rgba(87, 87, 87, 0.4);
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+textarea {
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 565px;
+}
+
+.left-list {
+  float: left;
+  margin-right: 10px;
+}
+
+.contact-wrapper {
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 120px;
+  height: 32px;
+  background: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: #ff5722;
+  transition: 0.2s ease;
+  width: 125px;
+  height: 35px;
+}
+
+.social {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+social:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* =======================MESSAGE============================== */
+/* ======================FOOTER====================== */
+
+footer {
+  background-color: #d3d3d3;
+  height: 100px;
+  font-size: 10px;
+  width: 100%;
+}
+.containerfooter {
+  width: 1170px;
+  margin: 0 auto;
+}
+.footer-logo img {
+  width: 80px;
+  margin-top: 5px;
+}
+.footer-logo {
+  float: left;
+}
+.footer-list {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  line-height: 15px;
+}
+
+.footer-icon {
+  float: right;
+}
+.footer-icon img {
+  width: 20px;
+  margin-top: 40px;
+}
+.footer-icon a {
+  margin-left: 30px;
+  text-decoration: none;
+}
+h4 {
+  clear: left;
+  text-align: center;
+}
